@@ -82,11 +82,13 @@ h1, h2, h3, h4, h5, h6 {
 #rt-navigation.navbar-default .navbar-nav > li >a {
 	color: @baselight;
 }
-#rt-carousel {
+#slidemail {
 	padding-left: 0;
 	padding-right: 0;
-	.carousel-indicators {
-		display: none;
+	#rt-carousel {
+		.carousel-indicators {
+			display: none;
+		}
 	}
 }
 #rt-searchflight {
@@ -103,7 +105,8 @@ h1, h2, h3, h4, h5, h6 {
 		padding: 10px 0;
 	}
 	form {
-		padding: 15px 30px;
+		padding: 14px 30px;
+		padding-bottom: 15px;
 		background: #ecf0f1;
 		min-height: 420px;
 		.search-flight-title {
@@ -128,6 +131,10 @@ h1, h2, h3, h4, h5, h6 {
 		&>li>a {
 			border-radius: 0;
 			background: #fff;
+			border: 0;
+		}
+		&>li.active a {
+			border: 0;
 		}
 	}
 }
@@ -149,7 +156,8 @@ h1, h2, h3, h4, h5, h6 {
 	#rt-airlineslist ul {
 		margin-right: 0;
 		margin-left: 0;
-		border: 3px solid @baselight;
+		border: 1px solid #e5e5e5;
+		border-left: 3px solid @baselight;
 		li a {
 			display: block;
 			background: #fafafa;
