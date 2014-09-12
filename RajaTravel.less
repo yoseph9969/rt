@@ -1,0 +1,233 @@
+/*!
+	@yoseph9969
+*/
+@import 'rtbootstrap.less';
+@import 'rtjquery-ui-1.10.4.min.less';
+@import 'facustomless.less';
+
+@baselight: #e74c3c;
+@basedark: #c0392b;
+@basebtn: #3498db;
+@basebtnshadow: @basebtn - 20%;
+
+@basefont: 'Roboto', Arial, sans-serif;
+
+.offsetTop10 {
+	margin-top: 10px;
+}
+.offsetTop20 {
+	margin-top: 20px;
+}
+.offsetTop30 {
+	margin-top: 30px;
+}
+.offsetTop40 {
+	margin-top: 40px;
+}
+.offsetTop50 {
+	margin-top: 50px;
+}
+.offsetTop60 {
+	margin-top: 60px;
+}
+.offsetTop70 {
+	margin-top: 70px;
+}
+.offsetTop80 {
+	margin-top: 80px;
+}
+.offsetTop90 {
+	margin-top: 90px;
+}
+.offsetTop100 {
+	margin-top: 100px;
+}
+
+
+body {
+	font-family: @basefont;
+}
+a {
+	color: @baselight;
+}
+a:hover {
+	color: @basedark;
+}
+.form-control,
+.btn,
+.input-group-addon {
+	border-radius: 0;
+}
+label {
+	font-weight: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: @basefont;
+	font-weight: 700;
+	letter-spacing: -1px;
+}
+.btn-orange {
+	background: @basebtn;
+	border: 1px solid @basebtn;
+	color: #ffffff;
+}
+.btn-orange:hover, .btn-orange:focus, .btn-orange:active, .btn-orange.active {
+	background: none;
+	color: @basebtn;
+}
+
+
+#rt-navigation {
+	background: #ffffff;
+}
+#rt-navigation.navbar-default .navbar-nav > li >a {
+	color: @baselight;
+}
+#rt-carousel {
+	padding-left: 0;
+	padding-right: 0;
+	.carousel-indicators {
+		display: none;
+	}
+}
+#rt-searchflight {
+	padding-left: 0;
+	padding-right: 0;
+	.tab-content {
+		
+	}
+	.search-flight-headline {
+		background: @baselight;
+		color: #ffffff;
+		margin-bottom: 0;
+		margin-top: 0;
+		padding: 10px 0;
+	}
+	form {
+		padding: 15px 30px;
+		background: #ffffff;
+		.search-flight-title {
+			margin-top: 0;
+			font-weight: 400;
+			margin-bottom: 30px;
+			span {
+				font-size: 22px;
+				margin-left: 10px;
+			}
+		}
+		.sep {
+			border-right: 2px solid @baselight;
+		}
+		.form-control {
+			padding: 6px !important;
+		}
+	}
+	.rt-switch-dom-inter {
+		border-bottom: 0;
+		&>li>a {
+			border-radius: 0;
+			background: #fff;
+		}
+	}
+}
+
+
+
+
+
+
+
+#rt-list-promo {
+	margin-top: 50px;
+	#rt-airlineslist ul {
+		margin-right: 0;
+		margin-left: 0;
+		border: 3px solid @baselight;
+		li a {
+			display: block;
+			background: #fafafa;
+			border-bottom: 1px solid #e5e5e5;
+			padding: 10px 20px;
+			&:hover {
+				background: #ffffff;
+				text-decoration: none;
+			}
+			span {
+				margin-left: 20px;
+			}
+		}
+	}
+}
+
+
+
+
+#rt-promo {
+	.promo-title {
+		background: @baselight;
+		padding: 10px;
+		color: #ffffff;
+		font-size: 16px;
+		margin-bottom: 0;
+		margin-right: 1px;
+	}
+	.promo-flightDate, .promo-airlineLogo, .promo-airlineCode, .promo-airlineTime, .promo-airlinePrice, .promo-nextAction {
+		padding-top: 10px;
+		border-bottom: 1px solid #ccc;
+		padding-bottom: 10px;
+		min-height: 50px;
+	}
+	.promo-flightDate {
+		border-left: 1px solid #ccc;
+		border-right: 1px solid #ccc;
+		p {
+			margin-bottom: 0;
+		}
+	}
+	.promo-airlineCode {
+		font-weight: 700;
+	}
+	.promo-airlinePrice {
+		font-size: 16px;
+		font-weight: 700;
+	}
+	.promo-nextAction {
+		padding-top: 10px;
+		border-right: 1px solid #ccc;
+	}
+}
+
+
+
+
+
+
+
+
+
+#rt-fitur {
+	background: @baselight;
+	color: #ffffff;
+	padding: 20px 0;
+	margin-top: 50px;
+	h2 {
+		margin-bottom: 20px;
+	}
+	.fitur-icon {
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	.fitur-desc {
+		margin-bottom: 20px;
+	}
+}
+
+
+
+
+
+#rt-webfooter {
+	background: @basedark;
+	color: #ffffff;
+	padding-top: 10px;
+}
